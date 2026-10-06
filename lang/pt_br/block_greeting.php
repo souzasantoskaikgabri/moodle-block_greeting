@@ -22,6 +22,11 @@
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$string['pluginname'] = 'greeting';
+$string = [
+    'greeting' => 'Olá! Bem-vindo ao desenvolvimento de plugins Moodle.',
+    'greeting:addinstance' => 'Adicionar um novo bloco de saudação',
+    'greeting:myaddinstance' => 'Adicionar um novo bloco de saudação ao Painel',
+    'jsloaded' => 'Este bloco foi carregado via JavaScript.',
+    'pluginname' => 'Saudação',
+    'privacy:metadata' => 'O bloco Saudação não armazena nenhum dado pessoal.',
+];
